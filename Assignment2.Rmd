@@ -9,7 +9,7 @@ output: html_document
 A simple map created on 22nd January 2018
 
 ```{r map, echo=F}
-library(leaflet)
+suppressPackageStartupMessages(library(leaflet))
 
 date <- Sys.Date()
 date
